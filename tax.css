@@ -1,0 +1,61 @@
+h2{
+  margin-top: 2rem;
+}
+h3{
+  margin: 2rem;
+}
+p{
+  font-size: 120%;
+  margin: 2rem 0 2rem 2rem;
+}
+.contain{
+  width: 350px;
+  margin: 2rem auto 2rem auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: white;
+}
+.form-group{
+  margin: 20px 0;
+  text-align: left;
+}
+label{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+input[type='number']{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border:solid 1px gray;
+  margin-bottom: 20px;
+}
+button{
+  padding: 10px 20px;
+  background-color:rgb(160,99,245);
+  ;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  border:none
+}
+.myWrapTable{
+  text-align: left;
+  border-collapse: collapse;
+}
+.myWrapTable td{
+  border: solid 1px gray;
+  padding: 5px 10px;
+}
+#income-tax{
+  display: inline-block;
+  height: auto;
+  width: auto;
+  margin: 2rem;
+  font-size: 200%;
+  font-weight: 700;
+}

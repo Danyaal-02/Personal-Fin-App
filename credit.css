@@ -1,0 +1,21 @@
+.middle p{
+    font-size: large;
+    font-weight: 600;
+    margin: 2rem;
+}
+
+.middle ol{
+    margin-left: 4rem;
+}
+
+ol li{
+    font-size: medium;
+    margin: 2rem;
+    list-style: decimal;
+}
+
+.middle i{
+    margin: 2rem;
+    font-size: large;
+    text-decoration: underline;
+}

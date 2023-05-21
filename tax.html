@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--STYLESHEET-->
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="tax.css">
+    <!--MATERIAL ICONS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <!--GOOGLE FONTS (POPPINS)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!--MATERIAL ICONS-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <img src="assets/logo.png" class="logo">
+            
+            <div class="profile-area">
+                <div class="theme-btn">
+                    <span class="material-symbols-sharp active">light_mode</span>
+                    <span class="material-symbols-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <a href="tailwind-auth-template\login.html">LOGIN</a>
+                    <a href="tailwind-auth-template\register.html">SINGUP</a>
+                    <!-- <div class="profile-photo">
+                        <img src="assets/profile-photo.jpeg" alt="">
+                    </div>
+                    <h5>Tony Stark</h5> -->
+                    <span class="material-symbols-sharp">expand_more</span>
+                </div>
+                <button id="menu-btn">
+                    <span class="material-symbols-sharp">menu</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!--END OF NAVBAR-->
+
+    <main>
+        <aside>
+            <button id="close-btn">
+                <span class="material-symbols-sharp">close</span>
+            </button>
+            <div class="sidebar">
+                <a href="index.html">
+                    <span class="material-symbols-sharp">dashboard</span>
+                    <h4>Dashboard</h4>
+                </a>
+                <a href="budget.html">
+                    <span class="material-symbols-sharp">payments</span>
+                    <h4>Budget</h4>
+                </a>
+                <a href="savings.html">
+                    <span class="material-symbols-sharp">savings</span>
+                    <h4>Savings</h4>
+                </a>
+                <a href="credit.html">
+                    <span class="material-symbols-sharp">credit_score</span>
+                    <h4>Credit</h4>
+                </a>
+                <a href="invest.html">
+                    <span class="material-symbols-sharp">monitoring</span>
+                    <h4>Investing</h4>
+                </a>
+                <a href="tax.html" class="active">
+                    <span class="material-symbols-sharp">description</span>
+                    <h4>Tax Filing</h4>
+                </a>
+                <a href="news.html">
+                    <span class="material-symbols-sharp">newspaper</span>
+                    <h4>Finance News</h4>
+                </a>
+            </div>
+            <!--END OF SIDEBAR-->
+        </aside>
+        <!--END OF ASIDE-->
+        <section class="middle">
+            <header>
+                <h1>Income Tax Filing Guide</h1>
+                <p>Follow these steps to file your income taxes successfully</p>
+            </header>
+                <section>
+                    <h2>Step 1: Calculation of Income and Tax</h2>
+                    <p>The taxpayer will be required to calculate their income as per the income tax law provisions applicable.
+
+
+                        The calculation should take into account income from all sources such as salary, freelancing, interest from income, etc. The taxpayer can claim the deductions such as tax-saving investments under section 80C and so on. 
+                        
+                        Also, a taxpayer should take into account credit for TDS, TCS or any advance tax paid by them.</p>
+                </section>
+                <section>
+                    <h2>Step 2: Tax Deducted at Source (TDS) Certificates and Form 26AS</h2>
+                    <p>The taxpayer should summarise his TDS amount from the TDS certificates received by him for all the 4 quarters of the financial year. Form 26AS helps the taxpayer with the summary of the TDS and tax paid during the financial year.</p>
+                </section>
+                <section>
+                    <h2>Step 3: Choose the right Income Tax Forms</h2>
+                    <p>The taxpayer must first ascertain what ITR form they must fill out before proceeding to file returns. You can either file your returns online or offline. Only two forms, ITR 1 and ITR 4 are available for tax payers online. All other income tax forms must be uploaded offline (generating XML and uploading) .</p>
+                </section>
+                <section>
+                    <h2>Step 4: Download ITR utility from Income Tax Portal</h2>
+                    <p>Visit the site www.incometax.gov.in and click on ‘Downloads’ from the top menu bar. Choose the assessment year and download the offline utility software, i.e. Microsoft Excel or Java, or JSON utility based on your preference. The excel and java utility are discontinued by the income tax department from AY 2020-21</p>
+                </section>
+                <section>
+                    <h2>Step 5: Fill in your details in the Downloaded File</h2>
+                    <p>Upon downloading the offline utility, fill in the relevant details of your income, and check the tax payable or the refund receivable as per the calculations of the utility. The details of income tax challan can be filled in the downloaded form.</p>
+                </section>
+                <section>
+                    <h2>Step 6: Validate the Information Entered</h2>
+                    <p>You can see a few buttons on the right-hand side of the downloaded form. Click on the ‘Validate’ button to ensure all the required information is filled. </p>
+                </section>
+                <section>
+                    <h2>Step 7: Convert the file to XML Format</h2>
+                    <p>Upon successfully validating, click on the ‘Generate XML’ button on the right-hand side of the file to convert the file into XML file format.</p>
+                </section>
+                <section>
+                    <h2>Step 8: Upload the XML file on the Income Tax Portal</h2>
+                    <p>Now, log in to the income tax e-filing portal and click on the ‘e-File’ tab to select the ‘Income Tax Return’ option. Provide the necessary details such as PAN, assessment year, ITR form number, and the submission mode. Remember to choose the option ‘Upload XML’ from the drop down corresponding to the field name ‘Submission Mode’ as given in the image below. Now, attach the XML file from your computer and click on the ‘Submit’ button. 
+
+                        Choose one of the available verification modes—Aadhaar OTP, electronic verification code (EVC), or sending a manually signed copy of ITR-V to CPC, Bengaluru.</p>
+                </section>
+                <section>
+                    <h2><i><a href="https://incometaxindia.gov.in/Pages/tax-services/file-income-tax-return.aspx">File your ITR</a></i></h2>
+                </section>
+                <div id="income-tax"></div>
+        </section>
+        <!--END OF MIDDLE-->
+
+        <section class="right">
+            <h1 style="text-align: center;">Income Tax Calculator</h1>
+            <div class="contain">
+                <h2>Revised Income tax slabs under new tax regime for FY 2023-24 AY 2024-25</h2>
+                <h3>
+                  The income tax slabs under the new income tax regime will be as follows:
+                </h3>
+                <table class="myWrapTable"><tbody><tr><td><strong>Income tax slabs under new tax regime</strong></td><td><strong>Income tax rates under new tax regime</strong></td></tr><tr><td>O to Rs 3 lakh</td><td>0</td></tr><tr><td>Rs 3 lakh to Rs 6 lakh</td><td>5%</td></tr><tr><td>Rs 6 lakh to Rs 9 lakh</td><td>10%</td></tr><tr><td>Rs 9 lakh to Rs 12 lakh</td><td>15%</td></tr><tr><td>Rs 12 lakh to Rs 15 lakh</td><td>20%</td></tr><tr><td>Income above Rs 15 lakh</td><td>30%</td></tr></tbody></table>
+          
+                <form id="tax-form">
+                  <div class="form-group">
+                    <label for="income">Annual Income: New Slab</label>
+                      <input type="number" id="income" name="income"
+                      placeholder="Enter your annual income"
+                      required />
+                  </div>
+                  <div class="form-group">
+                    <button type="submit">Calculate Tax</button>
+                  </div>
+                </form>
+            </div>
+
+
+
+            <div class="contain">
+                <h2>Revised Income tax slabs under old tax regime for FY 2023-24 AY 2024-25</h2>
+                <h3>
+                  The income tax slabs under the old income tax regime will be as follows:
+                </h3>
+                <table class="myWrapTable"><tbody><tr><td><strong>Income tax slabs under old tax regime</strong></td><td><strong>Income tax rates under old tax regime</strong></td></tr><tr><td>O to Rs 3 lakh</td><td>0</td></tr><tr><td>Rs 3 lakh to Rs 6 lakh</td><td>5%</td></tr><tr><td>Rs 6 lakh to Rs 9 lakh</td><td>20%</td></tr><tr><td>Rs 9 lakh to Rs 12 lakh</td><td>30%</td></tr>
+          
+                <form id="tax-form">
+                  <div class="form-group">
+                    <label for="income">Annual Income: Old Slab</label>
+                      <input type="number" id="income" name="income"
+                      placeholder="Enter your annual income"
+                      required />
+                  </div>
+                  <div class="form-group">
+                    <button type="submit">Calculate Tax</button>
+                  </div>
+                </form>
+            </div>
+
+            
+            <script src="tax.js"></script>
+        </section>
+        <!--END OF RIGHT-->
+    </main>
+    <!--================== END OF ASIDE ===================-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
